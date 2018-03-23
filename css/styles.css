@@ -1,0 +1,53 @@
+.jumbotron{
+    background-image: url(../images/backgrounds/landing.jpg);
+    width: auto;
+    height: 500px;
+}
+.menu{
+    padding: inherit;
+}
+.col-md-3{
+    padding: 0;
+
+}
+.menu p{
+    color: white;
+
+}
+
+.breakfast{
+    background-image: url(../images/foodtop/breakfast.jpg);
+    height:200px;
+    text-align: center;
+    padding: 0;
+}
+.launch{
+    background-image: url(../images/foodtop/lunch.jpg);
+
+    height:200px;
+
+}
+.dinner{
+    background-image: url(../images/foodtop/dinner2.jpg);
+    height:200px;
+    margin: 0;
+}
+.happy p {
+    color: black;
+}
+.happy{
+    background-color: red;
+    height:100px;
+    margin: 0;
+
+}
+.party{
+    background-color: red;
+    height: 100px;
+    margin: 0;
+
+}
+.excitment{
+    width:700px;
+    height: auto;
+}
