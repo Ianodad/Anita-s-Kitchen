@@ -1,11 +1,20 @@
+/*Container css stling starts here*/
+
+/* jumbotron styling starts here */
 .jumbotron{
     background-image: url(../images/backgrounds/landing.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     background-size: cover;
-    width: auto;
     height: 500px;
 }
+.logo{
+
+}
+.heading{
+
+}
+/* Menu styling starts here*/
 .row{
     position: relative;
 }
@@ -55,7 +64,6 @@
 }
 .happy{
     background-color: red;
-
     height:100px;
     margin: 0;
 
@@ -66,22 +74,41 @@
     margin: 0;
 
 }
+/*Conetent syleing start here*/
 
 .excitment{
     padding: 0px 100px;
 }
+/*selectMenu styleing starts here*/
 
 .selectMenu{
-    background-image: url(../images/backgrounds/landing.jpg);
+    background-image: url(../images/backgrounds/foodsBg.jpg);
     padding: 50px 50px;
 
 }
-
 .select{
     padding: 50px 100px;
     margin: 20px 20px;
     background-color: white;
 }
-.shadow-box{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*testimony styling */
+.testimony{
+
+}
+/* subscribe styling starts here*/
+
+.subscribe{
+    background-image: url(../images/backgrounds/subscribe.jpg);
+    height: 200px;
+
+}
+.form-inline{
+    height: 200px;
+    width: auto;
+
+}
+/*Footer syling starts here*/
+.footer{
+    background-color: red;
+    height: 200px;
 }
