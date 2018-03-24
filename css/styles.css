@@ -155,28 +155,32 @@ h1{
     margin-top: 225px;
     margin-bottom: auto;
 }
-.tab{
-    background-color: grey;
-
-}
 /*testimony styling */
 .testimony{
     height: 400px;
 }
 .test{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 100px;
+    margin-top: 75px;
     padding: 10px;
-    height: 250px;
+    height: 210px;
+}
+.test-info{
+    padding: 5px 0px;
+    height: inherit;
+    margin: 5px 0px
 }
 .customer{
-    padding-right: 10px;
-    border-right: 10px;
-
+    padding-top: 10px;
+    margin-top: -10px;
+}
+.customer h3{
+    text-align: center;
 }
 .about{
      border-left: 2px solid grey;
-     padding-left: 10px;
+     padding-left: 30px;
+     margin-top: 0px;
 }
 /* subscribe styling starts here*/
 
