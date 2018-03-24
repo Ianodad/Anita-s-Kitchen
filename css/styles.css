@@ -4,66 +4,62 @@
 .jumbotron{
     background-image: url(../images/backgrounds/landing.jpg);
     background-repeat:no-repeat;
-    background-size: 100% 100%;
     background-size: cover;
-    height: 500px;
-}
-.logo{
+    height: 600px;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0 none;
 
+}
+.col-md-12{
+    border-radius: 0px;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    text-align:center;
 }
 .heading{
-
+    text-align: center;
+}
+h1{
+    font-size: 18px;
+    font-family: 'Karma', serif;
 }
 /* Menu styling starts here*/
-.row{
-    position: relative;
-}
-.menu{
-    padding: inherit;
-}
-.col-md-3{
-    padding: 0;
 
+.menu{
+    padding:0;
+}
+.col-md-12{
+    padding: 0;
+}
+
+}
+
+.pad{
+    padding: 0;
+    margin: 0;
 }
 .menu p{
     color: white;
-
-}
-
-.breakfast{
-    background-image: url(../images/foodtop/breakfast.jpg);
-    height:200px;
     text-align: center;
+    line-height: 200px;
+}
+.hour{
     padding: 0;
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    background-size: cover;
-    width: auto;
 }
-.launch{
-    background-image: url(../images/foodtop/lunch.jpg);
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    background-size: cover;
-    width: auto;
-    height:200px;
-
+.hour p{
+    color: white;
+    text-align: center;
+    line-height: 100px;
 
 }
-.dinner{
-    background-image: url(../images/foodtop/dinner2.jpg);
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-    background-size: cover;
-    width: auto;
-    height:200px;
-    margin: 0;
-}
-.happy p {
-    color: black;
-}
+
 .happy{
-    background-color: red;
+    background-color: white;
     height:100px;
     margin: 0;
 
@@ -74,10 +70,72 @@
     margin: 0;
 
 }
+.breakfast{
+    background-image: url(../images/foodtop/breakfast.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    height:200px;
+    padding: 0;
+
+}
+.launch{
+    background-image: url(../images/foodtop/lunch.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    height:200px;
+    padding: 0;
+
+
+}
+.dinner{
+    background-image: url(../images/foodtop/dinner2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+    height:200px;
+    padding: 0;
+}
+.happy p {
+    color: black;
+}
+
+
+}
+
 /*Conetent syleing start here*/
 
 .excitment{
-    padding: 0px 100px;
+    padding-top:100px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+    }
+.shadow-box{
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-position: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+
+
+}
+.images{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fastfood{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: inherit;
+
 }
 /*selectMenu styleing starts here*/
 
@@ -91,9 +149,16 @@
     margin: 20px 20px;
     background-color: white;
 }
+.tab{
+    background-color: grey;
+
+}
 /*testimony styling */
 .testimony{
 
+}
+.test{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* subscribe styling starts here*/
 
