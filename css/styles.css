@@ -89,7 +89,11 @@ h1{
     padding: 0;
 
 }
-.launch{
+.breakfast: hover{
+    color: black;
+
+}
+#launch{
     background-image: url(../images/foodtop/lunch.jpg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -99,7 +103,7 @@ h1{
 
 
 }
-.dinner{
+#dinner{
     background-image: url(../images/foodtop/dinner2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
