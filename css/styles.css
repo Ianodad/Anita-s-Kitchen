@@ -1,7 +1,7 @@
 /*Container css stling starts here*/
 
 /* jumbotron styling starts here */
-.jumbotron{
+.tron{
     background-image: url(../images/backgrounds/landing.jpg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     text-align: center;
 }
 h1{
-    font-size: 18px;
+    font-size: 48px;
     font-family: 'Karma', serif;
 }
 /* Menu styling starts here*/
@@ -164,10 +164,13 @@ transition: .5s;
 }
 .select{
 
-    background-color: white;
     text-align: center;
     margin-top: 225px;
     margin-bottom: auto;
+}
+
+.nav-tabs{
+    background-color: white;
 }
 /*testimony styling */
 .testimony{

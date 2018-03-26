@@ -13,20 +13,8 @@
 
     <body>
         <div class="container-fluid row">
-            <div class="jumbotron col-md-12">
-                <div class="dropdown">
-                    <div class="main-menu" id="icon-bar">
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                        <div class="menu-line"></div>
-                    </div>
+            <div class="tron col-md-12">
 
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                    </ul>
-                </div>
 
                 <div class="logo">
                     <img src="images/logoBig.png" alt="Website logo">
@@ -123,116 +111,124 @@
                 </div>
             </div>
             <div class="selectMenu col-md-12">
-                <div id="exTab3" class="container select">
-                    <ul class="nav nav-pills">
-                        <li class="active">
-                            <a href="#1b" data-toggle="tab">Overview</a>
-                        </li>
-                        <li><a href="#2b" data-toggle="tab">Using nav-pills</a>
-                        </li>
-                        <li><a href="#3b" data-toggle="tab">Applying clearfix</a>
-                        </li>
-                        <li><a href="#4a" data-toggle="tab">Background color</a>
-                        </li>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="select">
+
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                                <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                                <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                                <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="home" class="tab-pane fade in active">
+                                    <h3>HOME</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                    <h3>Menu 1</h3>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                    <h3>Menu 2</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque laudantium, totam rem aperiam.</p>
+                                </div>
+                                <div id="menu3" class="tab-pane fade">
+                                    <h3>Menu 3</h3>
+                                    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+                                        vitae dicta sunt explicabo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="testimony col-md-12">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 test">
+                    <div class="row test-info">
+                        <div class="col-md-7 col-lg-7 customer">
+
+                            <h3>Our Happy Customer</h3>
+                            <h4>Geaorge Richard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, nemo.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, cupiditate.
+                            </p>
+
+                        </div>
+                        <div class="col-md-5 col-lg-5 about">
+                            <h3>About Me</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, consectetur!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse recusandae
+                                modi aliquam nesciunt officia amet totam, deserunt quasi nostrum!</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
+        <div class="subscribe col-md-12">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 form-subscribe">
+                    <h4>Get our daily food items delivered to your email</h4>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email_id" name="email_name" placeholder="Your email here">
+                        </div>
+                        <button type="submit" class="btn btn-lg">Subscribe</button>
+                    </form>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <div class="footer col-md-12">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 footer-menu">
+                <div class="footer-logo row">
+                    <div class="col-md-2">
+                        <img class="image-logo" src="images/footerlogos/logo_white.png">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>MENU</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 para">
+                        <p>Thats What We Are</p>
+                    </div>
+                </div>
+                <div class id="social">
+                    <ul>
+                        <li><img src="images/footerlogos/facebook.png"></li>
+                        <li><img src="images/footerlogos/twitter.png"></li>
+                        <li><img src="images/footerlogos/pinterest.png"></li>
                     </ul>
-
-                    <div class="tab-content clearfix">
-                        <div class="tab-pane active" id="1b">
-                            <h3>Same as example 1 but we have now styled the tab's corner</h3>
-                        </div>
-                        <div class="tab-pane" id="2b">
-                            <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
-                        </div>
-                        <div class="tab-pane" id="3b">
-                            <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
-                        </div>
-                        <div class="tab-pane" id="4b">
-                            <h3>We use css to change the background color of the content to be equal to the tab</h3>
-                        </div>
-                    </div>
                 </div>
 
-            </div>
-            <div class="testimony col-md-12">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8 test">
-                        <div class="row test-info">
-                            <div class="col-md-7 col-lg-7 customer">
-
-                                <h3>Our Happy Customer</h3>
-                                <h4>Geaorge Richard</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, nemo.
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
-                                    cupiditate.
-                                </p>
-
-                            </div>
-                            <div class="col-md-5 col-lg-5 about">
-                                <h3>About Me</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, consectetur!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse recusandae
-                                    modi aliquam nesciunt officia amet totam, deserunt quasi nostrum!</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-
-            </div>
-            <div class="subscribe col-md-12">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8 form-subscribe">
-                        <h4>Get our daily food items delivered to your email</h4>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="email_id" name="email_name" placeholder="Your email here">
-                            </div>
-                            <button type="submit" class="btn btn-lg">Subscribe</button>
-                        </form>
-                    </div>
-                    <div class="col-md-2"></div>
+                <div class="copyright">
+                    <p>2016 Menu Restaruant</p>
                 </div>
             </div>
-            <div class="footer col-md-12">
-                <div class="col-md-4"></div>
-                <div class="col-md-4 footer-menu">
-                    <div class="footer-logo row">
-                        <div class="col-md-2">
-                            <img class="image-logo" src="images/footerlogos/logo_white.png">
-                        </div>
-                        <div class="col-md-10">
-                            <h3>MENU</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 para">
-                            <p>Thats What We Are</p>
-                        </div>
-                    </div>
-                    <div class id="social">
-                        <ul>
-                            <li><img src="images/footerlogos/facebook.png"></li>
-                            <li><img src="images/footerlogos/twitter.png"></li>
-                            <li><img src="images/footerlogos/pinterest.png"></li>
-                        </ul>
-                    </div>
-
-                    <div class="copyright">
-                        <p>2016 Menu Restaruant</p>
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
+            <div class="col-md-4"></div>
+        </div>
         </div>
 
     </body>
 
 </html>
 
-me"></div>
+</div>
 </body>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ea aspernatur id tempora ducimus veniam
-    facilis quos eaque rem itaque?</p>
