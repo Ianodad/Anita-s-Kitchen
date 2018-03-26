@@ -1,6 +1,13 @@
 $(document).ready(function(){
-    $("icon-menu").on('click',.'top', function(){
-        $("nav.menu").toggleClass("menu.show")
-    }
 
-})
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+});
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+});
+    });
+
+});
