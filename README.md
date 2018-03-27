@@ -1,3 +1,4 @@
+
 # Anita-s-Kitchen
 
 README
@@ -6,6 +7,7 @@ ANITA'S KITCHEN
 included:
 All source files (css,Html, Bootstrap,images, fonts)
 this README
+by
 Ian Odhiambo 
 
 Description
@@ -19,6 +21,18 @@ I'd like to first mention that the biggest problems I encountered during this pr
 
 Anyway, my implementation of this IP took alot of new information to learn that was not available. In other words, I tried to make my website as easy as possible while still maintaining the guidelines set.Hence the lack of javascript.
 A lot of the code used was basic html mixed with bootsrap. I dint understand javascript to implement. I tried my hardest not to copy, but I have this uncanny ability to understand code that has been already been used in other projects so it was hard not to implement the same way.
+
+Installation
+Web browser
+Internet Conncetion
+Window Mac OS Linux 
+
+License
+Copyright @ Valor Media
+
+
+Li
+
 
 
 
