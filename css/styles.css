@@ -266,18 +266,30 @@ color: black;
     padding-bottom: 100px;
 
 }
+.content h2 {
+    font-size: 35px;
+    color: #F15A29;
+}
 .food {
     text-align: left;
 }
+
+.btn{
+    background-color: #F15A29;
+}
+.fa-long-arrow-left{
+    color:#F15A29;
+}
+.fa-long-arrow-right{
+    color: #F15A29s;
+
+}
 .foodcont {
-    text-align: left;
+    text-align: right;
 
 }
 .fast-food{
     text-align: center;
-    /*padding-top: 30px;
-    padding-bottom: 30px;
-    position: inherit;*/
 
 }
 .drink2{
